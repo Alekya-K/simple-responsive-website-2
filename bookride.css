@@ -1,0 +1,457 @@
+.bg {
+    background-color: antiquewhite;
+}
+.logo-img {
+    width: 70px;
+    height: 70px;
+}
+.bg1 {
+    background-color: lightgoldenrodyellow;
+}
+.bg2 {
+    background-color: lightyellow;
+}
+.download1 {
+    height: 50px;
+    width: 125px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+
+}
+.card-cont {
+    background-color: white;
+    height: 100vh;
+    
+     
+}
+.ban-img {
+     height: 50px;
+     width: 50px;
+}
+.kub-text {
+  flex: 1;
+  max-width: 50%;
+  padding-right: 20px;
+}
+.homepara {
+    color:blue;
+
+}
+.homebutton1 {
+    height: 50px;
+    width: 125px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: yellow;
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+.homebutton2 {
+    height: 50px;
+    width: 125px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    background-color: black;
+    text-align: center;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.safety-card {
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: space-between; 
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    gap: 10px; 
+}
+.safesection {
+   
+        background-color: #f9fbfe;
+}
+
+
+.text-section {
+    flex: 1; 
+    padding: 10px;
+    
+}
+
+.image-section {
+    flex: 1; 
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+
+.safety-img {
+    max-width: 100%; 
+    height: auto; 
+    object-fit: cover; 
+    border-radius: 10px;
+}
+
+
+
+.safebutton {
+    color: black;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+    background-color: yellow;
+    border-radius: 15px;
+    border-width: 30px;
+    margin-top: 30px;
+    
+}
+
+.knowhigh {
+    text-decoration: underline;
+    text-decoration-color: yellow;
+}
+
+
+.navbar {
+    height: 70px; /* Adjust height */
+    padding: 5px 10px; /* Reduce padding */
+}
+
+
+.kub-img {
+    height: 500px;
+    width: 300px;
+
+}
+
+.impact-section {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    color: salmon;
+}
+
+.icon-box {
+    margin-bottom: 20px;
+}
+
+.circle {
+    width: 120px; 
+    height: 120px;
+    border-radius: 50%;
+    background-color: #fff; 
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 10px auto; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    padding: 10px; 
+    text-align: center; 
+}
+
+.circle img {
+    width: 40%;
+    height: auto;
+    margin-bottom: 5px; 
+}
+
+.impact-numbers {
+    font-size: 1.5rem; 
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.t {
+    font-size: 1rem;
+    color: blue;
+    margin: 0;
+}
+
+/* General button styles */
+.wybutton1, .reviewbutton1 {
+    
+    margin: 0;
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-top-left-radius: 15px;
+    
+}
+.wybutton2,  .reviewbutton2{
+   
+    
+    font-size: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-bottom-right-radius: 15px;
+}
+
+/* Active button styles (yellow background) */
+.wybutton1.active, .wybutton2.active, .reviewbutton1.active, .reviewbutton2.active {
+    background-color: yellow !important;
+    color: black;
+}
+
+/* Inactive button styles (white background) */
+.wybutton1.active, .wybutton2.active, .reviewbutton1.active, .reviewbutton2.active {
+    background-color: yellow !important;
+    color: black;
+}
+
+/* Inactive button styles (white background) */
+.wybutton1.inactive, .wybutton2.inactive, .reviewbutton1.inactive, .reviewbutton2.inactive {
+    background-color: white !important;
+    color: black;
+}
+
+/* Optional: Adding some spacing between buttons for clarity */
+.wybutton1, .wybutton2 , .reviewbutton1, .reviewbutton2 {
+    margin: 10px;
+}
+
+.wysection {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+
+#content-container {
+    margin-top: 20px;
+}
+
+.content-section {
+    display: none;
+}
+
+.content-section.active {
+    display: block;
+}
+
+.content-item {
+    text-align: center;
+    width: calc(33.33% - 20px); /* Three items per row */
+    margin: 10px;
+    display: inline-block;
+}
+
+.content-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.content-item h3 {
+    margin: 10px 0 5px;
+}
+
+.content-item p {
+    margin: 0;
+    color: #555;
+}
+.wyimg {
+    height: 250px;
+    width: 250px;
+}
+.review {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+.review-section {
+    text-align: center;
+    padding: 40px;
+    background: #f8f8f8;
+}
+
+.review-buttons {
+    margin-bottom: 20px;
+}
+
+.carousel-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    overflow: hidden;
+    max-width: 800px;
+    margin: auto;
+}
+
+.carousel-wrapper {
+    width: 100%;
+    overflow: hidden;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.review-slide {
+    min-width: 100%;
+    
+    background: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+}
+
+.review-slide img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.carousel-btn {
+    background: white;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 50%;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.prev-btn {
+    left: 10px;
+    
+}
+
+.next-btn {
+    right: 10px;
+    
+}
+
+.carousel-dots {
+    margin-top: 10px;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.dot.active {
+    background-color: #FFC107;
+}
+.review-img {
+    height: 60px;
+    width: 60px;
+}
+
+.footer {
+    background-color: black;
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.footer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* App Section */
+.app-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+}
+
+.app img {
+    width: 150px;
+    margin-top: 10px;
+}
+
+/* Footer Links */
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.footer-column {
+    text-align: left;
+}
+
+.footer-column h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.footer-column a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.footer-column a:hover {
+    color: #ffcc00;
+}
+
+/* Follow Us Section */
+.follow-us {
+    text-align: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.social-icon {
+    color: white;
+    font-size: 24px;
+    text-decoration: none;
+    transition: 0.3s ease;
+}
+
+.social-icon:hover {
+    color: #ffcc00;
+}
+
+/* Footer Bottom */
+.footer-bottom {
+    margin-top: 20px;
+    font-size: 12px;
+}
