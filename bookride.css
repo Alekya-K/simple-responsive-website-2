@@ -31,6 +31,41 @@
     
      
 }
+
+.navbar {
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand img {
+    height: 50px; /* Adjust logo size */
+}
+
+.navbar-toggler {
+    border: none; /* Remove border from hamburger icon */
+}
+
+.navbar-toggler:focus {
+    box-shadow: none; /* Remove focus outline */
+}
+
+.navbar-nav {
+    margin-top: 10px; 
+}
+
+.nav-item {
+    margin: 5px 0; 
+}
+
+.nav-link {
+    font-size: 16px;
+    color: #000 !important; 
+    padding: 10px 15px !important; 
+}
+
+.nav-link:hover {
+    color: #FFC107 !important; /* Add hover effect */
+}
 .ban-img {
      height: 50px;
      width: 50px;
@@ -130,11 +165,7 @@
 }
 
 
-.navbar {
-    height: 70px; /* Adjust height */
-    padding: 5px 10px; /* Reduce padding */
-    color: #010203;
-}
+
 
 
 .kub-img {
